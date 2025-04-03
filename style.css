@@ -43,5 +43,23 @@ html, body {
     font-size: 14px;
 }
 
+.habilidades{
+    display: flex;
+    gap: 5px; /* Espaço entre os itens */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.item{
+    background-color: rgb(88, 88, 88); /* Fundo branco */
+    color: white;
+    padding: 5px 10px; /* Espaçamento interno */
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px; /* Cantos arredondados */
+
+}
+
 
 
