@@ -1,3 +1,47 @@
-.textoRoxo{
-    color: blueviolet;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;  /* Centraliza verticalmente */
+    text-align: center;  /* Centraliza o texto dentro da div */
+    padding-bottom: 50px; 
+    padding-top: 40px;
 }
+.container {
+    width: 70%; /* Opcional: Define uma largura máxima */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.fotoPerfil{
+    width: 150px;  
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+.meuNome{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #8a32a3;
+}
+
+.minhaProfissao{
+    font-family: 'IBM Plex Mono', monospace;
+    color: #284260;
+}
+
+.minhaDescricao{
+    font-family: "Poppins", sans-serif;
+    color: #284260;
+    opacity: 0.8;
+    
+}
+
+.tituloHabilidades{
+    font-size: 14px;
+}
+
+
+
