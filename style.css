@@ -77,15 +77,33 @@ html, body {
 table{
     border-collapse: collapse;
     margin: 0 auto; /* centraliza horizontalmente */
-    border: 1px solid #33333393;
+    border: 1px solid #33333354;
     width: 80%;
+    border-radius: 15px ;
+    border-collapse: initial;
+    overflow: hidden; /* evita cantos retos nos filhos */
 }
 
 table p {
     text-align: left;
+    font-family: "Poppins", sans-serif;
+    color: #284260;
+    opacity: 0.8;
+    font-size: 14px;
 }
+
 
 .linkProjetos{
     display: flex;
     justify-content: flex-start;
+}
+
+.tituloContato{
+    display: flex;
+    align-items: flex-start;
+    color: #284260;
+}
+
+a{
+    font-size: 14px;
 }
