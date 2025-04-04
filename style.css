@@ -12,6 +12,7 @@ html, body {
 .container {
     width: 90%; /* Opcional: Define uma largura máxima */
     font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px; 
 
 }
 
@@ -61,9 +62,30 @@ html, body {
 
 }
 
+.areaProjetos{
+    width: 100%;
+}
+
 
 .tituloProjeto{
     display: flex;
     align-items: flex-start;
     color: #284260;
+}
+
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto; /* centraliza horizontalmente */
+    border: 1px solid #33333393;
+    width: 80%;
+}
+
+table p {
+    text-align: left;
+}
+
+.linkProjetos{
+    display: flex;
+    justify-content: flex-start;
 }
