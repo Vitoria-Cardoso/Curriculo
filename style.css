@@ -10,7 +10,7 @@ html, body {
     padding-top: 40px;
 }
 .container {
-    width: 70%; /* Opcional: Define uma largura máxima */
+    width: 90%; /* Opcional: Define uma largura máxima */
     font-family: 'Poppins', sans-serif;
 
 }
@@ -51,7 +51,7 @@ html, body {
 }
 
 .item{
-    background-color: rgb(88, 88, 88); /* Fundo branco */
+    background-color: rgb(88, 88, 88); 
     color: white;
     padding: 5px 10px; /* Espaçamento interno */
     font-size: 10px;
@@ -62,4 +62,8 @@ html, body {
 }
 
 
-
+.tituloProjeto{
+    display: flex;
+    align-items: flex-start;
+    color: #284260;
+}
