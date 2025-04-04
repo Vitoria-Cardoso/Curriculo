@@ -12,7 +12,9 @@ html, body {
 .container {
     width: 90%; /* Opcional: Define uma largura máxima */
     font-family: 'Poppins', sans-serif;
+    height: 100%;
     padding-bottom: 50px; 
+    padding-top: 50px;
 
 }
 
