@@ -109,3 +109,9 @@ table p {
 a{
     font-size: 14px;
 }
+
+.linkContato{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+}
